@@ -19,15 +19,12 @@
 package com.nineworldsdeep.droidmuse;
 
 import com.nineworldsdeep.droidmuse.R;
-import com.nineworldsdeep.droidmuse.R.drawable;
-import com.nineworldsdeep.droidmuse.R.layout;
 import com.nineworldsdeep.droidmuse.guitar.GuitarActivity;
 import com.nineworldsdeep.droidmuse.keys.KeyboardActivity;
 
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
