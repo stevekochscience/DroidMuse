@@ -42,16 +42,16 @@ public class MainTabWidget extends TabActivity {
 	    intent = new Intent().setClass(this, ClefActivity.class);
 
 	    // Initialize a TabSpec for each tab and add it to the TabHost
-	    spec = tabHost.newTabSpec("clef").setIndicator("one").setContent(intent);
+	    spec = tabHost.newTabSpec("clef").setIndicator("these").setContent(intent);
 	    tabHost.addTab(spec);
 
 	    // Do the same for the other tabs
 	    intent = new Intent().setClass(this, GuitarActivity.class);
-	    spec = tabHost.newTabSpec("guitar").setIndicator("two").setContent(intent);
+	    spec = tabHost.newTabSpec("guitar").setIndicator("will").setContent(intent);
 	    tabHost.addTab(spec);
 
 	    intent = new Intent().setClass(this, KeyboardActivity.class);
-	    spec = tabHost.newTabSpec("keyboard").setIndicator("three").setContent(intent);
+	    spec = tabHost.newTabSpec("keyboard").setIndicator("go").setContent(intent);
 	    tabHost.addTab(spec);
 	    
 	    
