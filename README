@@ -1,0 +1,11 @@
+DroidMuse is my very first Android project, and is centered around
+building UI components for music related applications. 
+
+Much of its current state (as of 10/17/2011) is the result of a trial
+and error coding process as I became more familiar with Android development
+and as such it is a little rough around the edges. 
+
+I am currently in the process of refactoring the various elements 
+into reusable components for other projects.
+
+-Brent

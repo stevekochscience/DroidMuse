@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Droid Muse</string>
+    <string name="change_tuning">Tuning</string>
+    <string name="set_num_strings">Strings</string>
+    <string name="set_fret_range">Fret Range</string>
+    
+</resources>

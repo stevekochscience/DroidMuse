@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/change_tuning"
+		  android:title="@string/change_tuning" />
+    <item android:id="@+id/set_num_strings"
+    	  android:title="@string/set_num_strings" />
+    <item android:id="@+id/set_fret_range"
+    	  android:title="@string/set_fret_range" />    
+</menu>
