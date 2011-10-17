@@ -19,6 +19,7 @@
 package com.nineworldsdeep.droidmuse.keys;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 public class KeyboardActivity extends Activity {
@@ -28,6 +29,9 @@ public class KeyboardActivity extends Activity {
 	@Override	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);		
+		
 		this._keyboard = new Keyboard(this);
 		setContentView(this._keyboard);
 	}

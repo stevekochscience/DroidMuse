@@ -6,13 +6,12 @@
     <application android:icon="@drawable/icon" android:label="@string/app_name">
     
         
-    	<activity android:name="com.nineworldsdeep.droidmuse.MainTabWidget" 
-    			  android:label="@string/app_name"
-    			  android:theme="@android:style/Theme.NoTitleBar">
-    		<intent-filter>
-            	<action android:name="android.intent.action.MAIN" />
-            	<category android:name="android.intent.category.LAUNCHER" />
-        	</intent-filter>
+    	<activity android:name=".ButtonListActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.nineworldsdeep.droidmuse.ClefActivity" /> 
         <activity android:name="com.nineworldsdeep.droidmuse.guitar.GuitarActivity" />
