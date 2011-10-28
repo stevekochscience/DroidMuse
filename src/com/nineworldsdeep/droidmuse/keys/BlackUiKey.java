@@ -1,4 +1,6 @@
 /*
+ * Copyright 2011 Brent Buchholz
+ *
  * This file is part of DroidMuse.
  *
  * DroidMuse is free software: you can redistribute it and/or modify
